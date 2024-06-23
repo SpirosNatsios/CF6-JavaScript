@@ -25,9 +25,8 @@ function displayProducts(products) {
     products.forEach((product) => {
         console.log(product);
         let { fields } = product;
-        // console.log(fields);
         let { company, price, genre } = fields;
-        // console.log(company, price, genre);
+        console.log(company, price, genre);
     });
 }
 

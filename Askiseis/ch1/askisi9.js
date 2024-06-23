@@ -1,9 +1,6 @@
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let subarraySize = 3;
 
-let subarrays = splitArrayIntoSubarrays(arr, subarraySize);
-console.log(subarrays);
-
 function splitArrayIntoSubarrays(array, subarraySize) {
     const result = [];
 
@@ -14,3 +11,6 @@ function splitArrayIntoSubarrays(array, subarraySize) {
 
     return result;
 }
+
+let subarrays = splitArrayIntoSubarrays(arr, subarraySize);
+console.log(subarrays);

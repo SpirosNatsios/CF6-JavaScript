@@ -1,6 +1,6 @@
 const cities = ["Athens", "London", "Paris"];
 
-cities[3] = "Berlin";
+cities.push("Berlin");
 
 console.log(cities);
 
